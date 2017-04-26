@@ -51,7 +51,7 @@ S2 = sudoku_lhs.lhs.sample(2, m)  # same number of bins as above
 S3 = sudoku_lhs.comb.sample(2, m)
 ```
 
-Note that combinatorial sampling is very expensive (large number of samples), which is why LHS methods have been developed.
+Note that combinatorial sampling is very expensive (generates a very large number of samples), which is why LHS methods have been developed.
 
 ### Historical note
 
