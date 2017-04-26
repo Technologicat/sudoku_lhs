@@ -53,6 +53,40 @@ S3 = sudoku_lhs.comb.sample(2, m)
 
 Note that combinatorial sampling is very expensive (generates a very large number of samples), which is why LHS methods have been developed.
 
+
+## Installation
+
+### From PyPI
+
+Install as user:
+
+```bash
+pip install sudoku-lhs --user
+```
+
+Install as admin:
+
+```bash
+sudo pip install sudoku-lhs
+```
+
+### From GitHub
+
+As user:
+
+```bash
+git clone https://github.com/Technologicat/sudoku_lhs.git
+cd sudoku_lhs
+python setup.py install --user
+```
+
+As admin, change the last command to
+
+```bash
+sudo python setup.py install
+```
+
+
 ### Historical note
 
 The variant of sudoku sampling implemented here was originally developed as part of the SAVU project in 2010, and briefly mentioned in the author's paper

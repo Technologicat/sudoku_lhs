@@ -147,7 +147,6 @@ setup(
                     "Intended Audience :: Science/Research",
                     "License :: OSI Approved :: BSD License",
                     "Operating System :: POSIX :: Linux",
-                    "Programming Language :: Cython",
                     "Programming Language :: Python",
                     "Programming Language :: Python :: 2",
                     "Programming Language :: Python :: 2.7",
@@ -170,7 +169,7 @@ setup(
     #
     # e.g. the keywords your project uses as topics on GitHub, minus "python" (if there)
     #
-    keywords = ["latin-hypercube sampling lhs numpy"],
+    keywords = ["latin-hypercube sudoku numerical sampling-methods numpy"],
 
     # Declare packages so that  python -m setup build  will copy .py files (especially __init__.py).
     #

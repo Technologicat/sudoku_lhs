@@ -1,3 +1,8 @@
+## [v0.1.1]
+ - fix classifiers (no Cython here!)
+ - fix keywords to match those on GitHub
+ - add installation instructions to README.md, note PyPI
+
 ## [v0.1.0]
  - initial release as separate project
  - package as a Python library `sudoku_lhs`
