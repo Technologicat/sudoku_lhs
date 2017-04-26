@@ -5,8 +5,6 @@ from __future__ import division, print_function, absolute_import
 
 import numpy as np
 
-__version__ = '1.0.0'
-
 def sample(N,k,n, visualize=False, showdiag=False, verbose=False):
     """Create a coarsely `N`-dimensionally stratified latin hypercube sample (LHS) of range(`k` * `m`) in `N` dimensions.
 
