@@ -54,9 +54,9 @@ S3 = sudoku_lhs.comb.sample(2, m)
 Note that combinatorial sampling is very expensive (generates a very large number of samples), which is why LHS methods have been developed.
 
 
-## Installation
+### Installation
 
-### From PyPI
+#### From PyPI
 
 Install as user:
 
@@ -70,7 +70,7 @@ Install as admin:
 sudo pip install sudoku-lhs
 ```
 
-### From GitHub
+#### From GitHub
 
 As user:
 
@@ -94,6 +94,7 @@ The variant of sudoku sampling implemented here was originally developed as part
 
 Later, Shields and Zhang independently developed and published a variant of sudoku sampling, published in
   - Michael D. Shields and Jiaxin Zhang. The generalization of Latin hypercube sampling. Reliability Engineering & System Safety 148:96-108, 2016. [doi:10.1016/j.ress.2015.12.002](http://doi.org/10.1016/j.ress.2015.12.002)
+
 
 ### License
 
