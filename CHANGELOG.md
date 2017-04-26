@@ -2,6 +2,7 @@
  - initial release as separate project
  - package as a Python library `sudoku_lhs`
  - also provide trivial combinatorial and classical LHS samplers for comparison
+ - port `sudoku_cor_test` to Python
 
 ## [2017-04-25]
  - Python3 compatibility
